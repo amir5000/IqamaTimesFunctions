@@ -1,0 +1,13 @@
+#prayer-times h3 {
+  text-align: center;
+}
+#prayer-times ul {
+  padding: 0;
+  list-style: none;
+}
+#prayer-times ul .clearfix:before,
+#prayer-times ul .clearfix:after {
+  display: table;
+  content: " ";
+}
+/*# sourceMappingURL=styles.css.map */
