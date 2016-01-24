@@ -3,11 +3,23 @@
 }
 #prayer-times ul {
   padding: 0;
+  margin: 0;
   list-style: none;
+}
+#prayer-times ul .clearfix {
+  clear: both;
 }
 #prayer-times ul .clearfix:before,
 #prayer-times ul .clearfix:after {
   display: table;
   content: " ";
+}
+#prayer-times ul span {
+  display: block;
+  float: left;
+  width: 5%;
+}
+#prayer-times ul span:nth-child(odd) {
+  width: 10%;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -5,13 +5,25 @@
 
 	ul {
 		padding: 0;
+	    margin: 0;
 		list-style: none;
 
 		.clearfix {
+			clear: both;
 			&:before, &:after {
 			    display: table;
 			    content: " ";
 			}
+		}
+
+		span {
+		    display: block;
+		    float: left;
+		    width: 5%;
+		}
+
+		span:nth-child(odd) {
+		    width: 10%;
 		}
 	}
 }
