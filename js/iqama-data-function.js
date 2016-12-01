@@ -21,7 +21,7 @@ jQuery(document).ready(function( $ ) {
 						$('#prayer-times ul').append('<li class="clearfix index'+i+'"><span class="month">' + obj.Month +' </span></li>');
 					}
 					if (key === 'Day') {
-						if (formattedDate === obj.Day) {
+						if (formattedDate === Number(obj.Day)) {
 							$('#prayer-times ul li.index' + i).append('<span class="day">'+ obj.Day + ' </span>').css('background-color', '#ddd');
 						} else {
 							$('#prayer-times ul li.index' + i).append('<span class="day">'+ obj.Day + ' </span>');
@@ -43,7 +43,7 @@ jQuery(document).ready(function( $ ) {
 						$('#prayer-times ul').append('<li class="clearfix index'+i+'"><span class="month">' + obj.Month +' </span></li>');
 					}
 					if (key === 'Day') {
-						if (formattedDate === obj.Day) {
+						if (formattedDate === Number(obj.Day)) {
 							$('#prayer-times ul li.index' + i).append('<span class="day">'+ obj.Day + ' </span>').css('background-color', '#ddd');
 						} else {
 							$('#prayer-times ul li.index' + i).append('<span class="day">'+ obj.Day + ' </span>');
