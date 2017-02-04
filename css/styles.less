@@ -17,13 +17,16 @@
 		}
 
 		span {
-		    display: block;
-		    float: left;
-		    width: 5%;
+            display: inline-block;
+		    width: 8%;
 		}
+        
+        span.day {
+            width: 3%;
+        }
 
-		span:nth-child(odd) {
-		    width: 10%;
-		}
+		span.prayerTime:nth-child(odd), span.month {
+            font-weight: bold;
+        }
 	}
 }
